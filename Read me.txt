@@ -1,0 +1,24 @@
+Color:
+
+yellow: #fcdb00
+
+black: #010101
+
+ash: #555555
+
+light ash: #898989
+
+blue: #313841
+
+
+md-xxl		sm		col
+h1:32px		h1:26px		h1:
+
+
+Features:
+
+padding-top: 100
+padding-bottom: 120
+
+md-xxl		sm		col
+

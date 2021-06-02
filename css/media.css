@@ -1,0 +1,246 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .logo{
+        width: 80%;
+    }
+    .menu ul li a{
+        margin-top: 10px;
+        text-align: right;
+        padding: 0 0px !important;
+    }
+    .slider{
+        background-color: #fcdb00;
+        padding-bottom: 50px;
+    }
+    .s_text{
+        margin-top: 0px;
+    }
+    .s_text h1{
+        font-size: 26px;
+    }
+    .s_text h3{
+        font-size: 20px;
+    }
+    .s_icon{
+        margin-top: 20px;
+    }
+    .s_icon li{
+        font-size: 35px;
+        padding-right: 20px;
+    }
+    .cid {
+        bottom: -50px !important;
+    }
+    .cid button{
+        width: 12px !important;
+        height: 12px !important;
+        border-radius: 50% !important; 
+    }
+    /* Feature start */
+    .c_padding {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .c_h1 {
+        font-size: 26px;
+    }
+    .c_p {
+        font-size: 17px;
+    }
+    .c_mt_70{
+        margin-top: 40px !important;
+    }
+    .si_icon {
+        font-size: 40px;
+        text-align: center;
+    }
+    .si_text {
+        margin-top: 0;
+        text-align: center;
+    }
+    .si_text h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .si_text p {
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+    }
+    /* Feature end */
+
+    /* contact start */
+    .submit{
+        margin: 20px auto 0 auto;
+    }
+    .btn_yellow{
+        width: 100%;
+        height: 50px;
+        font-family: 'PT Sans', sans-serif !important;
+        font-size: 16px;
+        font-weight: 700 !important;
+        color: #010101;
+        text-transform: uppercase;
+        background-color: #fcdb00 !important;
+        transition: 0.3s;
+    }
+    .m_tb {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .social-icon ul li a i {
+        margin: 0 5px;
+        padding-top: 6px;
+        width: 35px;
+        height: 35px;
+        background-color: #fcdb00;
+        border-radius: 7px;
+        color: #010101;
+        text-align: center;
+        font-size: 25px;
+        transition: 0.3s;
+    }
+    /* contact end */
+
+    /* footer start */
+    footer{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .f2{
+        margin-top: 20px;
+    }
+    /* footer end */
+
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu ul li a{
+        margin-top: 10px;
+        text-align: right;
+        padding: 0 0px !important;
+    }
+    .slider{
+        background-color: #fcdb00;
+        padding-bottom: 80px;
+    }
+    .s_text{
+        margin-top: 20px;
+    }
+    .s_text h3{
+        font-size: 20px;
+    }
+    .s_icon{
+        margin-top: 20px;
+    }
+    .cid {
+        bottom: -60px !important;
+    }
+    .cid button{
+        width: 12px !important;
+        height: 12px !important;
+        border-radius: 50% !important; 
+    }
+    /* Feature start */
+    .c_padding {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .c_mt_70{
+        margin-top: 30px !important;
+    }
+    .si_text{
+        text-align: center;
+    }
+    .si_icon {
+        text-align: center;
+    }
+    /* Feature end */
+
+    /* contact start */
+    .m_tb {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    /* contact end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu ul li a{
+        text-align: right;
+        padding: 0 0px !important;
+        margin-top: 10px;
+    }
+    .s_text{
+        margin-top: 60px;
+    }
+    .s_text h3{
+        width: 80%;
+    }
+    .s_text p{
+        width: 85%;
+    }
+    .s_icon{
+        margin-top: 15px;
+    }
+    .s_icon li{
+        font-size: 42px;
+        color: #010101;
+        padding-right: 40px;
+    }
+    .s_img{
+        margin-top: 10px;
+        width: 95%;
+    }
+    .s_img img{
+        width: 100%;
+    }
+    /* Feature start */
+    .c_padding {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .c_mt_70{
+        margin-top: 50px !important;
+    }
+    .si_text p {
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+    }
+    /* Feature end */
+
+    /* contact start*/
+    .m_tb {
+        margin-top: 40px;
+        margin-bottom: 55px;
+    }
+    /* contact end*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .s_icon{
+        text-align: center !important;
+    }
+    /* Feature start*/
+    .si_text p {
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+    }
+    /* Feature end*/
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
