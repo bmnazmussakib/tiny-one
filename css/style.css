@@ -185,6 +185,7 @@ header{
 /* Footer start */
 footer{
     background-color: #010101;
+    padding-bottom: 140px;
 }
 .f1{
     color: white;
